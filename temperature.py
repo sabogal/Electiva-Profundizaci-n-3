@@ -21,11 +21,11 @@ class Temperature:
 		return f"Se ha convertido de Fahrengeit a Celsius: {(self.temperature - 32) / 1.8}"
 	
 	def get_temperature(self):
-		temperature = self.__get_temperature_type() 
+		temperature = self.__get_temperature_type()
 		return temperature()
 	
 
-if __name__ == "__main__":
+def execute():
 
 	temperature_type = int(input("Ingrese el tipo de temperatura Farenheit (1) o Celcius (2): "))
 	value = float(input("Ingrese la temperatura: "))

@@ -16,5 +16,3 @@ def convertir_medida():
     else:
         print("Opción no válida. Por favor elige 1 o 2.")
 
-# Ejecutar la función
-convertir_medida()

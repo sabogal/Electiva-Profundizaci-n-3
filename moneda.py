@@ -13,7 +13,7 @@ def convertir_moneda(valor, de_moneda, a_moneda):
 
 
 # Bloque ejecutable en consola
-if __name__ == "__main__":
+def execute():
     try:
         valor = float(input("Ingrese el valor a convertir: "))
         de_moneda = input("Ingrese la moneda de origen (USD o COP): ").upper()
